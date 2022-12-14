@@ -42,6 +42,17 @@ hr {
     margin: 100px auto;
 }
 
+a {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+   color: #EAF6F6; 
+}
+
 /*************************************************/
 .top-container {
   /*** background-image: url(../images/mountain.jpg);
@@ -59,7 +70,8 @@ padding-top: 100px;
 }
 
 .bottom-container {
-   
+   background-color: #66bfbf;
+   padding: 50px 0 20px;
 }
 
 .top-cloud {
@@ -98,6 +110,12 @@ padding-top: 100px;
 .contact-message {
     width: 40%;
     margin: 40px auto 60px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 
 .circular {
